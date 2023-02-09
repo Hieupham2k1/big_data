@@ -13,7 +13,7 @@ def get_data(page = 1):
 def main():
 	page = int(input("Pages to crawl: "))
 	for i in range(page):
-		get_data(i+20)
+		get_data(i+411)
 
 if __name__ == '__main__':
 	main()
